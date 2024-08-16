@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    color: rgb(0, 255, 242);
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#screen{
+    align-items: center;
+    color: white;
+}
+#incre,#decre,#reset{
+   
+    /* color: white; */
+    border:none;
+    padding: 9px 36px;
+    margin-right: 10px;
+    font-weight: bold;
+    /* font-size: 15px; */
+
+  
+
+}
+#reset{
+   border:1px solid white;
+   color: black;
+}
